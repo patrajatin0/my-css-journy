@@ -1,0 +1,10 @@
+.parent{
+    display: grid;
+    grid-template-columns: 3fr 1fr 5fr;
+    background-color: red;
+}
+.child{
+    background-color: bisque;
+    gap: 5px;
+    margin: 10px;
+}
