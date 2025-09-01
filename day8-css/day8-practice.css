@@ -1,0 +1,45 @@
+input{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 100px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: none;
+    outline: none;
+    margin: 50px;
+     /* position: absolute; */
+     position: relative;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 100px;
+}
+input:hover{
+    border: 2px solid red;
+    border-radius: 30px;
+    
+    padding:5px 10px;
+    
+   
+   
+   
+}
+button:hover{
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 8px;
+    
+}
+img:hover{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 10px;
+}
